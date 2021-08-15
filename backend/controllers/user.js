@@ -33,6 +33,7 @@ const registerUser = async (req, res) => {
   } catch (error) {
     return res.status(400).send("failed to register user");
   }
+  
 };
 
 const listUser = async (req, res) => {
